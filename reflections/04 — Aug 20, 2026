@@ -1,0 +1,80 @@
+04 — Aug 20, 2026
+# Lecture 04 — Aug 20, 2026
+
+## Reflection Journal
+
+> This lecture connected documentation, Java programming, GUI development, and basic geometry. Instead of looking at these topics separately, I understood how they can work together while building a graphical application.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+--> 01 — Working with Markdown
+
+- Markdown can make technical information **clearer, organised, and easier to review**.
+- Different formatting elements can be used for different purposes:
+  - `#` and `##` → headings and sections
+  - Tables → comparing or organising information
+  - Code blocks → displaying code clearly
+  - Blockquotes → highlighting important points
+- Markdown files can also be previewed using lightweight tools instead of opening a complete IDE.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+--> 02 — Understanding Java OOP Concepts
+
+### Inheritance
+
+- Inheritance allows one class to **extend another class**.
+- The child class can reuse or modify the properties and behaviour of the parent class.
+- For example:
+
+```java
+class Apple {
+}
+
+class SweetApple extends Apple {
+}
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+--> 03 — Java Swing and GUI Structure
+
+- Java Swing provides components for creating desktop graphical applications.
+- The basic relationship between the main window and drawing area is:
+
+```text
+JFrame
+   |
+   └── JPanel
+- JFrame acts as the top-level application window.
+- JPanel is placed inside the JFrame and can be used as a custom drawing surface.
+- The JPanel should not contain the JFrame; the frame is the outer container.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+--> 04 — Turning Coordinates into Shapes
+
+- The lecture showed how mathematical calculations can be used to construct graphical shapes.
+- A rectangle can be created when two diagonal points are known.
+- If the points are (x1, y1) and (x2, y2), the required values are:
+  x = min(x1, x2)
+  y = min(y1, y2)
+  width = |x2 - x1|
+  height = |y2 - y1|
+- min() gives the correct top-left starting position.
+- The absolute value ensures that the width and height remain positive.
+- This method works regardless of which diagonal point is given first.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+--> 05 — Java Syntax Refresher
+
+-The lecture also reinforced some basic Java syntax used when creating graphics programs.
+-Common imports include:
+  import javax.swing.*;
+  import java.awt.*;
+-The standard entry point of a Java application is the main() method:
+  public static void main(String[] args) {
+  }
+-Java naming conventions were also reviewed:
+Classes → CamelCase
+Methods → camelCase
