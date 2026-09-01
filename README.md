@@ -29,6 +29,9 @@ Reflection journal and study notes for CSC360 - Computer Graphics & Digital Imag
 | Maven & JavaFX | [Maven and JavaFX](study-notes/maven-and-javafx.md) |
 | Raster vs Vector | [Raster vs Vector](study-notes/raster-vs-vector.md) |
 | Windows vs Linux | [Windows vs Linux](study-notes/windows-vs-linux.md) |
+| 2D Coordinates & Geometry | [2D Coordinates and Geometry](study-notes/2d-coordinates-and-geometry.md) |
+| Java Swing & Custom Drawing | [Java Swing and Custom Drawing](study-notes/java-swing-and-custom-drawing.md) |
+| Java OOP & Event Handling | [Java OOP and Event Handling](study-notes/java-oop-and-event-handling.md) |
 
 ## Purpose
 
